@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.karte.android",
+    "module": "notifications",
+    "version": "2.9.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "4cm34bewefg3vdu64pmpmgi5se"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.karte.android",
+          "module": "core",
+          "version": {
+            "requires": "2.20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "notifications-2.9.3.aar",
+          "url": "notifications-2.9.3.aar",
+          "size": 76420,
+          "sha512": "f7f9e5f9c94b7b07b057b828d6ca8a6dbfa8970bb7a0bf6a728da5f7fc74b89a109889bf76a733f90f2979619283d1e13f0f34001bf802d4ce6e3b2803e656e3",
+          "sha256": "701b7e9f926b5477ecc967217000228cb64e933429874d63b316ea44c48ed3b7",
+          "sha1": "5d31b024b68c67e1561c811579579088b55e8e2c",
+          "md5": "2bc306c58d3c8616aeb546cc119cc27c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging",
+          "version": {
+            "requires": "19.0.0"
+          }
+        },
+        {
+          "group": "io.karte.android",
+          "module": "core",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.3.50"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "notifications-2.9.3.aar",
+          "url": "notifications-2.9.3.aar",
+          "size": 76420,
+          "sha512": "f7f9e5f9c94b7b07b057b828d6ca8a6dbfa8970bb7a0bf6a728da5f7fc74b89a109889bf76a733f90f2979619283d1e13f0f34001bf802d4ce6e3b2803e656e3",
+          "sha256": "701b7e9f926b5477ecc967217000228cb64e933429874d63b316ea44c48ed3b7",
+          "sha1": "5d31b024b68c67e1561c811579579088b55e8e2c",
+          "md5": "2bc306c58d3c8616aeb546cc119cc27c"
+        }
+      ]
+    }
+  ]
+}
